@@ -2,7 +2,7 @@ import React from "react";
 
 export default function SecaoEventos() {
   return (
-    <section>
+    <section className="secao-eventos">
       <div>
         <h2>NOSSOS EVENTOS</h2>
         <span>Delicias com sorvete!</span>

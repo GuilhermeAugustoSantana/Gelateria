@@ -1,9 +1,10 @@
 import React from "react";
+import './style.css';
 
 export default function Rodape() {
   return (
     <footer>
-      <div>
+      <div className="limitar-secao contato">
         <img src="assets/logo.png" alt="logo da gelateria" />
         <div>
           <h3>ENDEREÇO</h3>
@@ -23,7 +24,7 @@ export default function Rodape() {
           <p>10:00 - 22:00</p>
         </div>
       </div>
-      <div>
+      <div className="limitar-secao copywrite">
         <p>Gelateria. Orgulhosamente desenvolvido por "Guilherme Augusto"</p>
       </div>
     </footer>

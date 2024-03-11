@@ -2,8 +2,8 @@ import React from "react";
 
 export default function SecaoSobre() {
   return (
-    <section>
-      <img src="assets/banner-sobre" alt="uma imagem com pessoas tomando sorvete" />
+    <section className="secao-sobre">
+      <img src="assets/sobre-image.jpg" alt="uma imagem com pessoas tomando sorvete" />
       <div>
         <h2>SOBRE NÓS</h2>
         <span>Alegria em cada casquinha!</span>

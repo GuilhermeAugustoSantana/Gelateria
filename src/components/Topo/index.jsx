@@ -1,15 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import './style.css';
 
 export default function Topo() {
   return (
     <header>
-      <div>
+      <div className="limitar-secao topo">
         <img src="assets/logo.png" alt="logo da gelateria" />
         <nav>
-          <Link to='/'>Home</Link>
-          <Link to='/sobre'>Sobre</Link>
-          <Link to='/sabores'>Sabores</Link>
+          <Link className="link" to='/'>Home</Link>
+          <Link className="link" to='/sabores'>Sabores</Link>
+          <Link className="link" to='/sobre'>Sobre</Link>
         </nav>
       </div>
     </header>

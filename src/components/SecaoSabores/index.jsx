@@ -2,7 +2,7 @@ import React from "react";
 
 export default function SecaoSabores() {
   return (
-    <section>
+    <section className="secao-sabores">
       <img src="assets/banner-sabores.jpg" alt="banner dos sabores" />
       <div>
         <h2>NOSSOS PRODUTOS</h2>

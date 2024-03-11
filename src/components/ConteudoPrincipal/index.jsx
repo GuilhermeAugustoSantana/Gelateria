@@ -1,4 +1,5 @@
 import React from "react";
+import './style.css'
 
 import SecaoBanner from "../../components/SecaoBanner";
 import SecaoEventos from "../../components/SecaoEventos";
