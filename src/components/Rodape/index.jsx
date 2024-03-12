@@ -4,6 +4,9 @@ import './style.css';
 export default function Rodape() {
   return (
     <footer>
+      <header>
+        
+      </header>
       <div className="limitar-secao contato">
         <img src="assets/logo.png" alt="logo da gelateria" />
         <div>

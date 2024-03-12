@@ -1,16 +1,16 @@
 import React from "react";
-import './styleHome.css'
+import './style.css'
 
 import Topo from "../../components/Topo";
-import ConteudoPgHome from "../../components/ConteudoPgHome";
+import ConteudoPgSabores from "../../components/ConteudoPgSabores";
 import Rodape from "../../components/Rodape";
 
 
-export default function PaginaHome() {
+export default function PaginaSabores() {
   return (
     <div>
       <Topo />
-      <ConteudoPgHome />
+      <ConteudoPgSabores />
       <Rodape />
     </div> 
   );
