@@ -1,0 +1,19 @@
+.secao-banner-sobre {
+  background-image: url('/public/assets/banner-sobre.png');
+  background-size: cover;
+}
+
+.secao-sobre .sobre {
+  width: 100%;
+  gap: 30px;
+}
+
+.secao-sobre .sobre span {
+  text-align: center;
+  margin: 0;
+}
+
+.secao-sobre .sobre p {
+  text-align: center;
+  margin: 0;
+}

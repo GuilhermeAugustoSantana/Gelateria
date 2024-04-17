@@ -1,16 +1,15 @@
 import React from "react";
-import './styleSabores.css'
+import './style.css'
 
 import Topo from "../../components/Topo";
-import ConteudoPgSabores from "../../components/ConteudoPgSabores";
 import Rodape from "../../components/Rodape";
+import ConteudoPgSobre from "../../components/ConteudoPgSobre";
 
-
-export default function PaginaSabores() {
+export default function PaginaSobre(){
   return (
     <div>
       <Topo />
-      <ConteudoPgSabores />
+      <ConteudoPgSobre />
       <Rodape />
     </div> 
   );
